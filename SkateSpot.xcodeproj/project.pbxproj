@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FABADB0280FAC8E005DE90E /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABADAF280FAC8E005DE90E /* UIImageView+Extensions.swift */; };
+		8FABADB2280FAF13005DE90E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABADB1280FAF13005DE90E /* MapViewController.swift */; };
+		8FABADB428123871005DE90E /* AddSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABADB328123871005DE90E /* AddSpotViewController.swift */; };
+		8FB527912813AE9800FC8E9E /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB527902813AE9800FC8E9E /* ImageUploader.swift */; };
+		8FBC6D7227E840F000948FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7127E840F000948FEC /* AppDelegate.swift */; };
+		8FBC6D7427E840F000948FEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7327E840F000948FEC /* SceneDelegate.swift */; };
+		8FBC6D7627E840F000948FEC /* FindSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7527E840F000948FEC /* FindSpotViewController.swift */; };
+		8FBC6D7927E840F000948FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7727E840F000948FEC /* Main.storyboard */; };
+		8FBC6D7B27E840F600948FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7A27E840F600948FEC /* Assets.xcassets */; };
+		8FBC6D7E27E840F600948FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC6D7C27E840F600948FEC /* LaunchScreen.storyboard */; };
+		8FBC6D8627E8423500948FEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC6D8527E8423500948FEC /* GoogleService-Info.plist */; };
+		8FBC6D8827E8476700948FEC /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D8727E8476700948FEC /* Spot.swift */; };
+		8FBC6D8A27E8492300948FEC /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D8927E8492300948FEC /* SpotList.swift */; };
+		8FBC6D8E27E8573100948FEC /* SkateSpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC6D8D27E8573100948FEC /* SkateSpotTableViewCell.swift */; };
+		8FC2086B28127AEA00F26A82 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2086A28127AEA00F26A82 /* Weather.swift */; };
+		FDF271A2FA708B757F5E53FE /* Pods_SkateSpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B570CDC173E254A9D02F74 /* Pods_SkateSpot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CBEF2EFE6B9094F013E26B3 /* Pods-SkateSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpot.release.xcconfig"; path = "Target Support Files/Pods-SkateSpot/Pods-SkateSpot.release.xcconfig"; sourceTree = "<group>"; };
+		68B570CDC173E254A9D02F74 /* Pods_SkateSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateSpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FABADAF280FAC8E005DE90E /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		8FABADB1280FAF13005DE90E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8FABADB328123871005DE90E /* AddSpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpotViewController.swift; sourceTree = "<group>"; };
+		8FB527902813AE9800FC8E9E /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		8FBC6D6E27E840F000948FEC /* SkateSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC6D7127E840F000948FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FBC6D7327E840F000948FEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FBC6D7527E840F000948FEC /* FindSpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSpotViewController.swift; sourceTree = "<group>"; };
+		8FBC6D7827E840F000948FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBC6D7A27E840F600948FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBC6D7D27E840F600948FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FBC6D7F27E840F600948FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC6D8527E8423500948FEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8FBC6D8727E8476700948FEC /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		8FBC6D8927E8492300948FEC /* SpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotList.swift; sourceTree = "<group>"; };
+		8FBC6D8D27E8573100948FEC /* SkateSpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateSpotTableViewCell.swift; sourceTree = "<group>"; };
+		8FC2086A28127AEA00F26A82 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E3DDB1D010E503EBA549C8B6 /* Pods-SkateSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpot.debug.xcconfig"; path = "Target Support Files/Pods-SkateSpot/Pods-SkateSpot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBC6D6B27E840F000948FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF271A2FA708B757F5E53FE /* Pods_SkateSpot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828E2F0A3D191C50213995AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3DDB1D010E503EBA549C8B6 /* Pods-SkateSpot.debug.xcconfig */,
+				1CBEF2EFE6B9094F013E26B3 /* Pods-SkateSpot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FABADAE280FAC79005DE90E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8FABADAF280FAC8E005DE90E /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8FBC6D6527E840F000948FEC = {
+			isa = PBXGroup;
+			children = (
+				8FBC6D7027E840F000948FEC /* SkateSpot */,
+				8FBC6D6F27E840F000948FEC /* Products */,
+				828E2F0A3D191C50213995AD /* Pods */,
+				CF20D748F74D51A70BA8A6A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBC6D6F27E840F000948FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC6D6E27E840F000948FEC /* SkateSpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBC6D7027E840F000948FEC /* SkateSpot */ = {
+			isa = PBXGroup;
+			children = (
+				8FABADAE280FAC79005DE90E /* Extensions */,
+				8FBC6D8527E8423500948FEC /* GoogleService-Info.plist */,
+				8FBC6D7127E840F000948FEC /* AppDelegate.swift */,
+				8FBC6D7327E840F000948FEC /* SceneDelegate.swift */,
+				8FBC6D7527E840F000948FEC /* FindSpotViewController.swift */,
+				8FBC6D7727E840F000948FEC /* Main.storyboard */,
+				8FBC6D7A27E840F600948FEC /* Assets.xcassets */,
+				8FBC6D7C27E840F600948FEC /* LaunchScreen.storyboard */,
+				8FBC6D7F27E840F600948FEC /* Info.plist */,
+				8FBC6D8727E8476700948FEC /* Spot.swift */,
+				8FBC6D8927E8492300948FEC /* SpotList.swift */,
+				8FBC6D8D27E8573100948FEC /* SkateSpotTableViewCell.swift */,
+				8FABADB1280FAF13005DE90E /* MapViewController.swift */,
+				8FABADB328123871005DE90E /* AddSpotViewController.swift */,
+				8FC2086A28127AEA00F26A82 /* Weather.swift */,
+				8FB527902813AE9800FC8E9E /* ImageUploader.swift */,
+			);
+			path = SkateSpot;
+			sourceTree = "<group>";
+		};
+		CF20D748F74D51A70BA8A6A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B570CDC173E254A9D02F74 /* Pods_SkateSpot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBC6D6D27E840F000948FEC /* SkateSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC6D8227E840F600948FEC /* Build configuration list for PBXNativeTarget "SkateSpot" */;
+			buildPhases = (
+				E0592031F70D0E76635D24AB /* [CP] Check Pods Manifest.lock */,
+				8FBC6D6A27E840F000948FEC /* Sources */,
+				8FBC6D6B27E840F000948FEC /* Frameworks */,
+				8FBC6D6C27E840F000948FEC /* Resources */,
+				E4B5C7F03B7CB8770DA7F22D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkateSpot;
+			productName = SkateSpot;
+			productReference = 8FBC6D6E27E840F000948FEC /* SkateSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBC6D6627E840F000948FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8FBC6D6D27E840F000948FEC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FBC6D6927E840F000948FEC /* Build configuration list for PBXProject "SkateSpot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBC6D6527E840F000948FEC;
+			productRefGroup = 8FBC6D6F27E840F000948FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBC6D6D27E840F000948FEC /* SkateSpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBC6D6C27E840F000948FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC6D7E27E840F600948FEC /* LaunchScreen.storyboard in Resources */,
+				8FBC6D8627E8423500948FEC /* GoogleService-Info.plist in Resources */,
+				8FBC6D7B27E840F600948FEC /* Assets.xcassets in Resources */,
+				8FBC6D7927E840F000948FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0592031F70D0E76635D24AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkateSpot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B5C7F03B7CB8770DA7F22D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBC6D6A27E840F000948FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC6D7627E840F000948FEC /* FindSpotViewController.swift in Sources */,
+				8FABADB0280FAC8E005DE90E /* UIImageView+Extensions.swift in Sources */,
+				8FBC6D8A27E8492300948FEC /* SpotList.swift in Sources */,
+				8FB527912813AE9800FC8E9E /* ImageUploader.swift in Sources */,
+				8FBC6D7227E840F000948FEC /* AppDelegate.swift in Sources */,
+				8FC2086B28127AEA00F26A82 /* Weather.swift in Sources */,
+				8FBC6D7427E840F000948FEC /* SceneDelegate.swift in Sources */,
+				8FABADB428123871005DE90E /* AddSpotViewController.swift in Sources */,
+				8FBC6D8E27E8573100948FEC /* SkateSpotTableViewCell.swift in Sources */,
+				8FBC6D8827E8476700948FEC /* Spot.swift in Sources */,
+				8FABADB2280FAF13005DE90E /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FBC6D7727E840F000948FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC6D7827E840F000948FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBC6D7C27E840F600948FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC6D7D27E840F600948FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBC6D8027E840F600948FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FBC6D8127E840F600948FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBC6D8327E840F600948FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DDB1D010E503EBA549C8B6 /* Pods-SkateSpot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V738TBWX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkateSpot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nashschultz.SkateSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FBC6D8427E840F600948FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBEF2EFE6B9094F013E26B3 /* Pods-SkateSpot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V738TBWX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkateSpot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nashschultz.SkateSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBC6D6927E840F000948FEC /* Build configuration list for PBXProject "SkateSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC6D8027E840F600948FEC /* Debug */,
+				8FBC6D8127E840F600948FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBC6D8227E840F600948FEC /* Build configuration list for PBXNativeTarget "SkateSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC6D8327E840F600948FEC /* Debug */,
+				8FBC6D8427E840F600948FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBC6D6627E840F000948FEC /* Project object */;
+}
