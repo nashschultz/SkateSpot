@@ -19,7 +19,7 @@ class WeatherService {
         var wind_mph: Double
     }
     
-    private let API_KEY = "1de3b4e9d5e94ba487855537222204"
+    private let API_KEY = "KEY"
     
     func fetchWeather(zipCode: String, completionHandler: @escaping (Weather) -> Void) {
         let apiDomain = "https://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=" + zipCode + "&aqi=no"
